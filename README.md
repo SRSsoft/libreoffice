@@ -10,8 +10,10 @@ This repository contains **Dockerfile** of [LibreOffice](https://www.libreoffice
 
 ### Installation
 
-1. Install [Docker](https://www.docker.com/).
-1. `docker build -t="srssoft/libreoffice" github.com/SRSsoft/libreoffice` 
+1. Install [Docker](https://www.docker.com/)
+1. Download [build](https://registry.hub.docker.com/u/srshealth/libreoffice/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull srshealth/libreoffice`
+
+   (alternatively, you can build an image from Dockerfile: `docker build -t="srssoft/libreoffice" github.com/SRSsoft/libreoffice`)
 
 ### Usage
 
