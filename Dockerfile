@@ -1,7 +1,7 @@
 FROM microsoft/windowsservercore
 
 MAINTAINER Brandon Boone
-LABEL Description=“LibreOffice” Vendor=“The Document Foundation” Version=“5.4.4”
+LABEL Description="LibreOffice" Vendor="The Document Foundation" Version="5.4.4"
 
 ADD https://ftp.osuosl.org/pub/tdf/libreoffice/stable/5.4.4/win/x86_64/LibreOffice_5.4.4_Win_x64.msi .
 
