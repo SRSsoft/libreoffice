@@ -11,7 +11,7 @@ This repository contains **Dockerfile** of [LibreOffice](https://www.libreoffice
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
-1. `docker build -t="dockerfile/nodejs" github.com/srssoft/libreoffice` 
+1. `docker build -t="srssoft/libreoffice" github.com/SRSsoft/libreoffice` 
 
 ### Usage
 
