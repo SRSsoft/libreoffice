@@ -15,12 +15,12 @@ This repository contains **Dockerfile** of [LibreOffice](https://www.libreoffice
 
 ### Usage
 
-    docker run -d --name libreofficeInstance -p 8100:8100 libreoffice
+    docker run -d --name libreofficeInstance -p 8100:8100 srssoft/libreoffice
 
 #### Run with mounted volume
 
-    docker run -d -v C:\StorageDemo:C:\StorageDemo -p 8100:8100 --name libreofficeInstance libreoffice
+    docker run -d -v C:\StorageDemo:C:\StorageDemo -p 8100:8100 --name libreofficeInstance srssoft/libreoffice
 
 #### Run `with alternate port / options`
 
-    docker run -d --name libreofficeInstance -p 2100:2100 libreoffice -accept=\"socket,host=0.0.0.0,port=2100;urp;\" -headless -nofirststartwizard
+    docker run -d --name libreofficeInstance -p 2100:2100 srssoft/libreoffice -accept=\"socket,host=0.0.0.0,port=2100;urp;\" -headless -nofirststartwizard
